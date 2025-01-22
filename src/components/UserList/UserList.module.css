@@ -1,0 +1,39 @@
+.title{
+    width: 100%;
+    text-align: center;
+}
+.grid{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:16px;
+}
+.card{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border:4px solid #ddd;
+    padding-bottom:20px;
+    text-align: center;
+    border-radius: 8px;
+    list-style-type: none;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 2px #666666ee;
+}
+.img{
+    width:100%;
+    display: block;
+    border-bottom:4px solid #ddd;
+}
+.infoContainer{
+    width: 100%;
+}
+.spinner{
+    padding-top:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
